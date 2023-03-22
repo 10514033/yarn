@@ -1,5 +1,5 @@
 import userModule from '../modules/user.module';
-
+import bcrypt from 'bcrypt';
 /*  User  POST 新增  */
 const userPost = (req, res) => {
     // 取得新增參數
